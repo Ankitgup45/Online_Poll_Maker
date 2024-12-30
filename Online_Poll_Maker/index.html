@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Poll Maker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Online Poll Maker</h1>
+    <form id="pollForm">
+      <label for="question">Poll Question:</label>
+      <input type="text" id="question" name="question" placeholder="Enter your question" required>
+
+      <label for="option1">Option 1:</label>
+      <input type="text" id="option1" name="option1" placeholder="Enter option 1" required>
+
+      <label for="option2">Option 2:</label>
+      <input type="text" id="option2" name="option2" placeholder="Enter option 2" required>
+
+      <button type="submit">Create Poll</button>
+    </form>
+
+    <div id="pollResults" style="display: none;">
+      <h2>Poll Results</h2>
+      <div id="pollQuestion"></div>
+      <div id="pollOptions"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
