@@ -14,13 +14,15 @@ Usage
 Create a Poll:
 
 
-Enter a question and a list of options (separate options by commas).
+Enter a question and options according to you.
 Submit the form to create the poll.
+
 Vote on a Poll:
 
 
 After the poll is created, the question and options will be displayed.
 Select an option and click the "Vote" button to cast your vote.
+
 View Results:
 
 
