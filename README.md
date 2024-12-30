@@ -9,3 +9,19 @@ Create Polls: Users can create a poll by specifying a question and a set of opti
 Real-Time Voting: Once the poll is created, users can vote by selecting one of the available options.
 
 Instant Results: After voting, the results are displayed in real-time.
+
+Usage
+Create a Poll:
+
+
+Enter a question and a list of options (separate options by commas).
+Submit the form to create the poll.
+Vote on a Poll:
+
+
+After the poll is created, the question and options will be displayed.
+Select an option and click the "Vote" button to cast your vote.
+View Results:
+
+
+After voting, the results will be displayed, showing how many people voted for each option.
